@@ -62,10 +62,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <div className="text-center text-slate-600 text-xs">
-            <p>© {year} Mohamed Khayal. Built with React & Tailwind CSS.</p>
-            <p className="mt-1 flex items-center justify-center gap-1">
-              Made with <FiHeart size={12} className="text-red-400" /> in Cairo, Egypt
-            </p>
+            <p>© {year} Mohamed Khayal. Built with React & Tailwind CSS.</p>      
           </div>
         </div>
       </div>

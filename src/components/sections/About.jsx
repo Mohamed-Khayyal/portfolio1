@@ -6,7 +6,7 @@ import { FiMapPin, FiMail, FiPhone, FiLinkedin, FiGithub } from 'react-icons/fi'
 const infoItems = [
   { icon: FiMapPin, label: 'Location', value: 'Cairo, Egypt' },
   { icon: FiMail, label: 'Email', value: 'khayyalmohamed5@gmail.com', href: 'mailto:khayyalmohamed5@gmail.com' },
-  { icon: FiPhone, label: 'Phone', value: '+20 1018743096', href: 'tel:+201018743096' },
+  { icon: FiPhone, label: 'Phone', value: '+20 1018743096', href: 'https://wa.me/201018743096' },
   { icon: FiGithub, label: 'GitHub', value: 'Mohamed-Khayyal', href: 'https://github.com/Mohamed-Khayyal' },
 ]
 
@@ -51,7 +51,7 @@ export default function About() {
                 I'm skilled in designing RESTful APIs, implementing token-based authentication (JWT, refresh tokens, HttpOnly cookies), and optimizing database performance for real-world production systems.
               </p>
               <p className="text-slate-400 leading-relaxed">
-                Currently pursuing my <span className="text-purple-400 font-medium">Bachelor of Computer Science</span> at Banha National University (GPA: 3.39/4.0), graduating June 2026. I'm deeply passionate about clean architecture, maintainable code, and delivering high-quality solutions that solve real business problems.
+                I hold a <span className="text-purple-400 font-medium">Bachelor of Computer Science</span> from Banha National University (GPA: 3.39/4.0), graduated June 2026. I'm deeply passionate about clean architecture, maintainable code, and delivering high-quality solutions that solve real business problems.
               </p>
 
               <div className="mt-6 pt-6 border-t border-white/10">
@@ -60,7 +60,7 @@ export default function About() {
                     { label: 'Degree', value: 'B.Sc. Computer Science' },
                     { label: 'University', value: 'Banha National Univ.' },
                     { label: 'GPA', value: '3.39 / 4.0' },
-                    { label: 'Graduation', value: 'June 2026' },
+                    { label: 'Status', value: 'Graduated ✓' },
                   ].map(({ label, value }) => (
                     <div key={label}>
                       <div className="text-xs text-slate-500 uppercase tracking-wide">{label}</div>

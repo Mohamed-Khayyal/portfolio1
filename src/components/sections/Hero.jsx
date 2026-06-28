@@ -117,7 +117,7 @@ export default function Hero() {
               { icon: FiGithub, href: 'https://github.com/Mohamed-Khayyal', label: 'GitHub' },
               { icon: FiLinkedin, href: 'https://linkedin.com/in/mohamed-khayal-bb910b378', label: 'LinkedIn' },
               { icon: FiMail, href: 'mailto:khayyalmohamed5@gmail.com', label: 'Email' },
-              { icon: FiPhone, href: 'tel:+201018743096', label: 'Phone' },
+              { icon: FiPhone, href: 'https://wa.me/201018743096', label: 'Phone' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

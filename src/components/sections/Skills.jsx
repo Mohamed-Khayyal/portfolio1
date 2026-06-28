@@ -9,7 +9,9 @@ const skillCategories = [
     skills: [
       { name: 'React.js', level: 90 },
       { name: 'Next.js', level: 85 },
-      { name: 'HTML5 / CSS3', level: 92 },
+      { name: 'HTML5', level: 95 },
+      { name: 'CSS3', level: 93 },
+      { name: 'JavaScript (ES6+)', level: 88 },
       { name: 'Tailwind CSS', level: 88 },
       { name: 'Redux / Context API', level: 80 },
       { name: 'SASS / Bootstrap', level: 82 },
@@ -44,6 +46,9 @@ const skillCategories = [
 ]
 
 const techStack = [
+  { name: 'HTML5', color: '#E34F26' },
+  { name: 'CSS3', color: '#1572B6' },
+  { name: 'JavaScript', color: '#F7DF1E' },
   { name: 'React', color: '#61DAFB' },
   { name: 'Next.js', color: '#ffffff' },
   { name: 'Node.js', color: '#68A063' },
@@ -51,7 +56,7 @@ const techStack = [
   { name: 'MongoDB', color: '#4DB33D' },
   { name: 'TypeScript', color: '#3178C6' },
   { name: 'Tailwind', color: '#06B6D4' },
-
+  { name: 'Bootstrap', color: '#7952B3' },
   { name: 'C#', color: '#239120' },
   { name: 'SQL Server', color: '#CC2927' },
   { name: 'Git', color: '#F05032' },

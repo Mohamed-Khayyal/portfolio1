@@ -14,7 +14,7 @@ const contactMethods = [
     icon: FiPhone,
     label: 'Phone',
     value: '+20 1018743096',
-    href: 'tel:+201018743096',
+    href: 'https://wa.me/201018743096',
     color: 'from-green-500 to-emerald-500',
   },
   {

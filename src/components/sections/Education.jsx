@@ -82,10 +82,10 @@ export default function Education() {
             </div>
             <div>
               <div className="text-xs text-slate-500 uppercase tracking-wide">Status</div>
-              <div className="text-lg font-bold text-slate-200">In Progress</div>
+              <div className="text-lg font-bold text-green-400">Graduated ✓</div>
             </div>
             <div>
-              <div className="text-xs text-slate-500 uppercase tracking-wide">Expected</div>
+              <div className="text-xs text-slate-500 uppercase tracking-wide">Year</div>
               <div className="text-lg font-bold text-slate-200">June 2026</div>
             </div>
           </div>
@@ -99,7 +99,7 @@ export default function Education() {
             <div className="h-2 bg-white/5 rounded-full overflow-hidden">
               <motion.div
                 initial={{ width: 0 }}
-                animate={isInView ? { width: '85%' } : {}}
+                animate={isInView ? { width: '100%' } : {}}
                 transition={{ duration: 1.5, delay: 0.5, ease: 'easeOut' }}
                 className="h-full rounded-full bg-gradient-to-r from-blue-500 to-purple-500"
               />

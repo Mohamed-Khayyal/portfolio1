@@ -62,7 +62,7 @@ const projects = [
     badgeColor: 'from-green-500 to-teal-500',
     description:
       'A pharmacy e-commerce platform serving 200+ users with role-based authentication, product browsing, ordering workflows, and fully responsive user interfaces.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'RBAC'],
+    tech: ['React', 'Firebase', 'Tailwind CSS'],
     color: 'from-green-600 to-teal-600',
     bgGlow: 'rgba(20,184,166,0.15)',
     links: [
