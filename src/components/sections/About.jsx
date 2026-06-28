@@ -51,7 +51,7 @@ export default function About() {
                 I'm skilled in designing RESTful APIs, implementing token-based authentication (JWT, refresh tokens, HttpOnly cookies), and optimizing database performance for real-world production systems.
               </p>
               <p className="text-slate-400 leading-relaxed">
-                Currently pursuing my <span className="text-purple-400 font-medium">Bachelor of Computer Science</span> at Banha National University (GPA: 3.38/4.0), graduating June 2026. I'm deeply passionate about clean architecture, maintainable code, and delivering high-quality solutions that solve real business problems.
+                Currently pursuing my <span className="text-purple-400 font-medium">Bachelor of Computer Science</span> at Banha National University (GPA: 3.39/4.0), graduating June 2026. I'm deeply passionate about clean architecture, maintainable code, and delivering high-quality solutions that solve real business problems.
               </p>
 
               <div className="mt-6 pt-6 border-t border-white/10">
@@ -59,7 +59,7 @@ export default function About() {
                   {[
                     { label: 'Degree', value: 'B.Sc. Computer Science' },
                     { label: 'University', value: 'Banha National Univ.' },
-                    { label: 'GPA', value: '3.38 / 4.0' },
+                    { label: 'GPA', value: '3.39 / 4.0' },
                     { label: 'Graduation', value: 'June 2026' },
                   ].map(({ label, value }) => (
                     <div key={label}>
