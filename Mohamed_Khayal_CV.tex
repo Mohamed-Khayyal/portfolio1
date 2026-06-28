@@ -1,0 +1,132 @@
+\documentclass[10pt, letterpaper]{article}
+% Packages
+\usepackage[
+    ignoreheadfoot,
+    top=1.5 cm,
+    bottom=1.5 cm,
+    left=1.5 cm,
+    right=1.5 cm,
+    footskip=0.8 cm
+]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fontawesome5}
+\definecolor{primaryColor}{RGB}{0, 79, 144}
+\usepackage[
+    pdftitle={Mohamed Khayal -- Full-Stack Developer},
+    pdfauthor={Mohamed Khayal},
+    pdfsubject={Full-Stack Developer Resume},
+    pdfkeywords={Full-Stack Developer, MERN Stack, React.js, Node.js, Next.js, MongoDB, Express.js, REST API, JWT, SQL Server},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+% Settings
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\renewcommand\labelitemi{\textbullet} % ATS-friendly standard bullet point
+\urlstyle{same}
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\titlerule]
+\titlespacing{\section}{0pt}{0.24 cm}{0.12 cm}
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.04 cm,
+        itemsep=0.04 cm,
+        leftmargin=0.5 cm
+    ]
+}{\end{itemize}}
+\begin{document}
+%================ HEADER ================
+\begin{center}
+    {\Huge \textbf{Mohamed Khayal}} \\[4pt]
+    {\Large Full-Stack Developer} \\[6pt]
+    \faMapMarker* Cairo, Egypt \quad | \quad
+    \faEnvelope[regular] \href{mailto:khayyalmohamed5@gmail.com}{khayyalmohamed5@gmail.com} \quad | \quad
+    \faPhone* \href{tel:+201018743096}{+20 1018743096} \\[4pt]
+    \faLinkedin \href{https://linkedin.com/in/mohamed-khayal-bb910b378}{linkedin.com/in/mohamed-khayal}
+    \quad | \quad
+    \faGithub \href{https://github.com/Mohamed-Khayyal}{github.com/Mohamed-Khayyal}
+\end{center}
+%================ SUMMARY ================
+\section{Professional Summary}
+Full-Stack Developer with hands-on experience building scalable, secure, and production-ready web applications using the MERN stack and Next.js. Skilled in designing RESTful APIs, implementing token-based authentication (JWT, refresh tokens, HttpOnly cookies), and optimizing database performance. Passionate about clean architecture, maintainable code, and delivering high-quality solutions that solve real business problems.
+%================ TECHNICAL SKILLS ================
+\section{Technical Skills}
+\textbf{Frontend:} React.js, Next.js, HTML5, CSS3, SASS, Tailwind CSS, Bootstrap, Redux, Context API \\
+\textbf{Backend:} Node.js, Express.js, RESTful APIs, JWT Authentication, Role-Based Access Control \\
+\textbf{Databases:} MongoDB, Mongoose, SQL Server\\
+\textbf{DevOps \& Tools:} Git, GitHub, Firebase, Cloudinary, Vercel \\
+\textbf{Core Competencies:} Secure Authentication, API Design, Rate Limiting, Performance Optimization, Database Architecture, Clean Architecture
+%================ EXPERIENCE ================
+\section{Experience \& Training}
+\textbf{Frontend Development Trainee} \hfill {2025 -- 2026} \\
+\textit{DEPI -- Digital Egypt Pioneers Initiative} \\
+\textit{React.js}
+\begin{highlights}
+    \item Completed intensive front-end web development training covering modern frontend workflows.
+    \item Built production-style projects involving responsive UI.
+    \item Strengthened collaboration, version control, and agile deployment practices used in real-world software projects.
+\end{highlights}
+\textbf{Full-Stack .NET Trainee} \hfill {2025} \\
+\textit{Tuya Technology} \\
+\textit{C\#, SQL Server, Entity Framework}
+\begin{highlights}
+    \item Built and optimized RESTful APIs, contributing to an average response-time improvement of \textbf{20\%}.
+    \item Developed CRUD-based systems handling \textbf{1,000+ records} efficiently with Entity Framework and SQL Server.
+    \item Designed normalized database schemas and optimized SQL queries, improving query performance by \textbf{30\%}.
+    \item Implemented JWT-based authentication and role-based access control (RBAC) to secure application endpoints.
+\end{highlights}
+%================ PROJECTS ================
+\section{Key Projects}
+
+\textbf{Medaura \& CLYNK -- Clinic Management System (Graduation Project)} \\
+\href{https://medaura-pi.vercel.app/}{Live Demo} | \href{https://github.com/Mohamed-Khayyal/Medaura}{Frontend} | \href{https://github.com/Mohamed-Khayyal/CLYNK}{Backend}
+\begin{highlights}
+    \item Developed a full-stack clinic management platform using Next.js, Node.js, Express.js, and SQL Server.
+    \item Implemented secure JWT authentication, RBAC, appointment booking, prescriptions, and notifications.
+    \item Improved platform security with rate limiting, audit logging, and analytics dashboards.
+\end{highlights}
+
+\textbf{Aetheris -- Community Forum Platform} \hfill \href{https://la2aetheris.com/}{Live Demo}
+\begin{highlights}
+    \item Built a full-stack community forum using React, Node.js, Express, and MongoDB Atlas.
+    \item Implemented JWT authentication, admin moderation tools, and Cloudinary media uploads.
+    \item Developed search, filtering, likes, and responsive user experiences.
+\end{highlights}
+
+\textbf{Games4U -- E-Commerce Platform}
+\begin{highlights}
+    \item Developed a MERN-based e-commerce platform for games and devices.
+    \item Built authentication, cart management, dynamic pricing, and admin dashboard functionality.
+    \item Applied production-ready security practices and deployment workflows.
+\end{highlights}
+
+\textbf{Medico Platform} \hfill \href{https://medico-brown-six.vercel.app/}{Live Demo}
+\begin{highlights}
+    \item Built a pharmacy e-commerce platform serving 200+ users with role-based authentication.
+    \item Developed product browsing, ordering workflows, and responsive user interfaces.
+\end{highlights}
+
+%================ EDUCATION ================
+\section{Education}
+\textbf{Bachelor of Computer Science} \hfill {Oct 2022 -- Jun 2026} \\
+Banha National University \hfill \textbf{GPA: 3.39 / 4.0}
+%================ CERTIFICATIONS ================
+\section{Certifications}
+\textbf{Front-End Web Development -- DEPI (Digital Egypt Pioneers Initiative)}
+\begin{highlights}
+    \item Intensive training in React.js, JavaScript (ES6+), HTML5, CSS3, responsive web design, and modern front-end development practices.
+\end{highlights}
+\textbf{Full-Stack .NET Development -- Tuya Technology}
+\begin{highlights}
+    \item Training in C\#, SQL Server, Entity Framework, and scalable backend API development.
+\end{highlights}
+%================ LANGUAGES ================
+\section{Languages}
+\textbf{Arabic} -- Native \quad | \quad \textbf{English} -- Professional Working Proficiency
+\end{document}
